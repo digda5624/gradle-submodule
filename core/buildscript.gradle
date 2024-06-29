@@ -1,0 +1,7 @@
+rootProject.buildscript.repositories {
+    mavenCentral()
+}
+
+rootProject.buildscript.dependencies {
+    classpath "org.springframework.boot:spring-boot-gradle-plugin:${versions.libs.springBoot}"
+}
